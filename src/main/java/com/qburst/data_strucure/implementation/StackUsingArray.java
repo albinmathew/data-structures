@@ -1,4 +1,4 @@
-package com.qburst.data_strucure.application;
+package com.qburst.data_strucure.implementation;
 
 import java.util.Scanner;
 
