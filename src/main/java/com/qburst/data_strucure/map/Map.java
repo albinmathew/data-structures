@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by albin on 25/9/14.
  */
-public class Map <K,V>{
+public class Map <K,V> {
     private int size;
     private int DEFAULT_CAPACITY = 16;
     @SuppressWarnings("unchecked")
@@ -71,5 +71,16 @@ public class Map <K,V>{
             set.add(values[i].getKey());
         }
         return set;
+    }
+
+    public boolean containsKey(V word) {
+        boolean contains = true;
+        for (int i = 0; i < size; i++) {
+            if (values[i].getKey().equals(word)) {
+//                values[i].setValue(word);
+                contains = false;
+            }
+        }
+        return contains;
     }
 }
