@@ -14,10 +14,10 @@ public class TreeMapExample {
         TreeMap balance = new TreeMap();
 
         balance.put("A", 3434.34);
-        balance.put("B", 123.22);
-        balance.put("C", 1378.00);
+        balance.put("C", 123.22);
+        balance.put("E", 1378.00);
         balance.put("D", 99.22);
-        balance.put("E", 190.08);
+        balance.put("B", 190.08);
 
         Set set = balance.entrySet();
         Iterator iterator = set.iterator();

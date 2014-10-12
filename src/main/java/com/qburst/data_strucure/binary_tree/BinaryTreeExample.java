@@ -1,4 +1,4 @@
-package com.qburst.data_strucure.binarytree;
+package com.qburst.data_strucure.binary_tree;
 
 /**
  * Created by albinmathew on 7/10/14.

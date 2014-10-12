@@ -1,4 +1,4 @@
-package com.qburst.data_strucure.cartesiantree;
+package com.qburst.data_strucure.cartesian_tree;
 
 /**
  * Created by albinmathew on 8/10/14.

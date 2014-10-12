@@ -1,4 +1,4 @@
-package com.qburst.data_strucure.cartesiantree;
+package com.qburst.data_strucure.cartesian_tree;
 
 import java.util.Scanner;
 
