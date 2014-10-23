@@ -56,8 +56,5 @@ public class DequeueExample {
         dequeue.size();
         System.out.println(dequeue.getFirst());
         System.out.println(dequeue.getLast());
-
-
-
     }
 }

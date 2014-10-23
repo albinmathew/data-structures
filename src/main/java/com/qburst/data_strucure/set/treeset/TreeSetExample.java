@@ -1,4 +1,4 @@
-package com.qburst.data_strucure.treeset;
+package com.qburst.data_strucure.set.treeset;
 
 import java.util.Iterator;
 import java.util.TreeSet;

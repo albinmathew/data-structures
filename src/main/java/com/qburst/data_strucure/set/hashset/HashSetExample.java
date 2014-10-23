@@ -1,4 +1,4 @@
-package com.qburst.data_strucure.hashset;
+package com.qburst.data_strucure.set.hashset;
 
 import java.util.Collections;
 import java.util.HashSet;

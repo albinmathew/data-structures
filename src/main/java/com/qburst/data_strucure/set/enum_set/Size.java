@@ -1,4 +1,4 @@
-package com.qburst.data_strucure.enum_set;
+package com.qburst.data_strucure.set.enum_set;
 
 /**
  * Created by albinmathew on 20/10/14.
