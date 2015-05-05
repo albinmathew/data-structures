@@ -9,7 +9,7 @@ public class LinkedListExample {
 
     public static void main(String args[]) {
 
-        LinkedList linkedList = new LinkedList();
+        LinkedList<String> linkedList = new LinkedList<String>();
 
         linkedList.add("F");
         linkedList.add("B");

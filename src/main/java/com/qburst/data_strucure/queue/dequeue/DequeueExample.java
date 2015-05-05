@@ -7,10 +7,10 @@ import java.util.LinkedList;
  * Created by albinmathew on 22/10/14.
  */
 public class DequeueExample {
-    private Deque deQueue;
+    private Deque<String> deQueue;
 
     public  DequeueExample(){
-        deQueue = new LinkedList();
+        deQueue = new LinkedList<>();
     }
 
     private void add(String string) {
@@ -23,10 +23,10 @@ public class DequeueExample {
         deQueue.addLast(string);
     }
     private String getFirst() {
-        return (String) deQueue.getFirst();
+        return deQueue.getFirst();
     }
     private String getLast() {
-        return (String) deQueue.getLast();
+        return deQueue.getLast();
     }
     private void remove() {
         print("Removed object is : " + deQueue.remove());

@@ -10,7 +10,7 @@ public class VectorExample {
 
     public static void main(String args[]) {
 
-        Vector vector = new Vector(3, 2);
+        Vector<Integer> vector = new Vector<Integer>(3, 2);
         System.out.println("Initial size: " + vector.size());
         System.out.println("Initial capacity: " + vector.capacity());
 
@@ -30,7 +30,7 @@ public class VectorExample {
             System.out.println("Vector contains 3.");
         }
 
-        Enumeration vEnum = vector.elements();
+        Enumeration<Integer> vEnum = vector.elements();
         System.out.println("\nElements in vector:");
 
         while(vEnum.hasMoreElements()){
